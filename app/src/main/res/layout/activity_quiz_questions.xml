@@ -109,14 +109,15 @@
                 android:text="What country does this flag belong to?"/>
 
             <Button
+                android:id="@+id/btnSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-               android:background="@color/design_default_color_on_primary"
+                android:background="@color/design_default_color_on_primary"
                 android:text="Submit"
                 android:textColor="@color/white"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
         </LinearLayout>
 
 </ScrollView>
